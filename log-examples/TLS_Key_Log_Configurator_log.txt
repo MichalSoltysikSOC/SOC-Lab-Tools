@@ -1,0 +1,178 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260101121750
+Username: MIKEWAVECS\MikeWave
+RunAs User: MIKEWAVECS\MikeWave
+Configuration Name: 
+Machine: MIKEWAVECS (Microsoft Windows NT 6.2.9200.0)
+Host Application: C:\Users\mikew\Downloads\TLSKeyLogConfigurator.exe
+Process ID: 4620
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+1. Check status
+2. Apply changes (safe - no overwrite)
+3. Override changes (force overwrite and create a backup of the existing TLS key log file in the same directory)
+4. Override changes (force overwrite without creating a backup of the TLS key log file)
+5. Exit
+
+
+STATUS
+------
+Wireshark installed:                  False
+
+Explanation: Wireshark is not installed (or not detected in the installed-programs registry list).
+Impact: TLS decryption in Wireshark cannot be used until Wireshark is installed.
+
+sslkeys dir exists:                   False
+Keylog file exists:                   False
+Wireshark dir exists:                 True
+Preferences exists:                   False
+User SSLKEYLOGFILE set:               False
+User SSLKEYLOGFILE value:             (not set)
+Session SSLKEYLOGFILE set:            False
+Session SSLKEYLOGFILE value:          (not set)
+Wireshark TLS key log file configured:False
+
+Explanation: Wireshark is not configured to read TLS secrets.
+Impact: TLS traffic cannot be decrypted in Wireshark.
+Tip: Use option 2, 3, or 4 to configure it automatically.
+
+
+Operation completed: status displayed successfully.
+
+
+
+1. Check status
+2. Apply changes (safe - no overwrite)
+3. Override changes (force overwrite and create a backup of the existing TLS key log file in the same directory)
+4. Override changes (force overwrite without creating a backup of the TLS key log file)
+5. Exit
+
+
+STATUS
+------
+Wireshark installed:                  True
+sslkeys dir exists:                   False
+Keylog file exists:                   False
+Wireshark dir exists:                 True
+Preferences exists:                   False
+User SSLKEYLOGFILE set:               False
+User SSLKEYLOGFILE value:             (not set)
+Session SSLKEYLOGFILE set:            False
+Session SSLKEYLOGFILE value:          (not set)
+Wireshark TLS key log file configured:False
+
+Explanation: Wireshark is not configured to read TLS secrets.
+Impact: TLS traffic cannot be decrypted in Wireshark.
+Tip: Use option 2, 3, or 4 to configure it automatically.
+
+
+Operation completed: status displayed successfully.
+
+
+
+1. Check status
+2. Apply changes (safe - no overwrite)
+3. Override changes (force overwrite and create a backup of the existing TLS key log file in the same directory)
+4. Override changes (force overwrite without creating a backup of the TLS key log file)
+5. Exit
+
+
+Operation completed: changes applied successfully (no overwrite).
+Keylog file changed: True
+User SSLKEYLOGFILE updated: True
+Wireshark preferences updated: True
+
+Note: Restart Wireshark (and the browser you want to log) to pick up changes.
+
+
+
+1. Check status
+2. Apply changes (safe - no overwrite)
+3. Override changes (force overwrite and create a backup of the existing TLS key log file in the same directory)
+4. Override changes (force overwrite without creating a backup of the TLS key log file)
+5. Exit
+
+
+Operation completed: changes overridden successfully (forced overwrite + backup).
+Backup created: (no existing non-empty keylog file found)
+Keylog file changed: True
+User SSLKEYLOGFILE updated: True
+Wireshark preferences updated: True
+
+Note: If a browser is actively writing to the key log file, overwrite may be limited. Restart the browser if needed.
+
+
+
+1. Check status
+2. Apply changes (safe - no overwrite)
+3. Override changes (force overwrite and create a backup of the existing TLS key log file in the same directory)
+4. Override changes (force overwrite without creating a backup of the TLS key log file)
+5. Exit
+
+
+Operation completed: changes overridden successfully (forced overwrite + backup).
+Backup created: C:\Users\mikew\sslkeys\sslkeys_log_backup_2026_01_01_12_28_42.log
+Keylog file changed: True
+User SSLKEYLOGFILE updated: True
+Wireshark preferences updated: True
+
+Note: If a browser is actively writing to the key log file, overwrite may be limited. Restart the browser if needed.
+
+
+
+1. Check status
+2. Apply changes (safe - no overwrite)
+3. Override changes (force overwrite and create a backup of the existing TLS key log file in the same directory)
+4. Override changes (force overwrite without creating a backup of the TLS key log file)
+5. Exit
+
+
+Operation completed: changes overridden successfully (forced overwrite, no backup).
+Keylog file changed: True
+User SSLKEYLOGFILE updated: True
+Wireshark preferences updated: True
+
+Note: If a browser is actively writing to the key log file, overwrite may be limited. Restart the browser if needed.
+
+
+
+1. Check status
+2. Apply changes (safe - no overwrite)
+3. Override changes (force overwrite and create a backup of the existing TLS key log file in the same directory)
+4. Override changes (force overwrite without creating a backup of the TLS key log file)
+5. Exit
+
+
+STATUS
+------
+Wireshark installed:                  True
+sslkeys dir exists:                   True
+Keylog file exists:                   True
+Keylog file size:                     0 bytes      |      0,00 KB      |      0,00 MB
+Wireshark dir exists:                 True
+Preferences exists:                   True
+User SSLKEYLOGFILE set:               True
+User SSLKEYLOGFILE value:             C:\Users\mikew\sslkeys\sslkeys.log
+Session SSLKEYLOGFILE set:            True
+Session SSLKEYLOGFILE value:          C:\Users\mikew\sslkeys\sslkeys.log
+Wireshark TLS key log file configured:True
+Wireshark tls.keylog_file line value: tls.keylog_file: C:\Users\mikew\sslkeys\sslkeys.log
+
+Operation completed: status displayed successfully.
+
+
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260101123035
+**********************
