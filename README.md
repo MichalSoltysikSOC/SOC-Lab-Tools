@@ -44,6 +44,8 @@ TLSKeyLogConfigurator.exe
 
 The application performs the following functions:
 
+<br>
+
 (1) runs as a console application that performs user-level TLS key logging configuration and Wireshark preference updates; it is recommended to run the tool as an administrator to ensure successful execution policy adjustment for the current process;
 
 (2) automates the setup of TLS key logging on Windows by creating a dedicated key log directory and file and configuring the SSLKEYLOGFILE user environment variable;
@@ -61,6 +63,8 @@ WindowsDefenderDisabler.exe
 -------------------------------------------
 
 The application performs the following functions:
+
+<br>
 
 (1) runs as a Windows utility intended for isolated lab environments and requires administrator privileges;
 
@@ -81,6 +85,8 @@ WindowsDefenderEnabler.exe
 -------------------------------------------
 
 The application performs the following functions:
+
+<br>
 
 (1) runs as a Windows utility intended for restoring Windows Defender functionality in lab environments and requires administrator privileges;
 
