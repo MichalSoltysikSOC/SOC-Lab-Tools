@@ -18,7 +18,7 @@ Email: me@michalsoltysik.com
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Written in PowerShell (TLSKeyLogConfigurator), and in C# (WindowsDefenderDisabler and WindowsDefenderEnabler), based on the .NET Framework 4.x.
+Written in PowerShell (TLSKeyLogConfigurator, executed within the .NET-based Windows PowerShell runtime) and in C# (WindowsDefenderDisabler and WindowsDefenderEnabler, compiled against the .NET Framework 4.x).
 
 All tools are compiled into .exe executable files with an MZ file header.
 
