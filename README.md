@@ -32,9 +32,9 @@ Repository name: SOC Lab Tools
 
 Tools included:
 
-- TLSKeyLogConfigurator.exe
-- WindowsDefenderDisabler.exe
-- WindowsDefenderEnabler.exe
+(1) TLSKeyLogConfigurator.exe
+(2) WindowsDefenderDisabler.exe
+(3) WindowsDefenderEnabler.exe
 
 <br>
 
