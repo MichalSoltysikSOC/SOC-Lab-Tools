@@ -40,9 +40,9 @@ Tools included:
 
 Summary:
 
-=========================
+-----------------------------------------
 TLSKeyLogConfigurator.exe
-=========================
+-----------------------------------------
 
 The application performs the following functions:
 
@@ -58,9 +58,9 @@ The application performs the following functions:
 
 (6) logs all actions to a transcript file stored on the user's desktop, enabling auditing and repeatability in forensic and SOC training environments.
 
-===========================
+-------------------------------------------
 WindowsDefenderDisabler.exe
-===========================
+-------------------------------------------
 
 The application performs the following functions:
 
@@ -78,9 +78,9 @@ The application performs the following functions:
 
 (7) displays an informational pop-up notification only on first execution when the scheduled task is created.
 
-==========================
+-------------------------------------------
 WindowsDefenderEnabler.exe
-==========================
+-------------------------------------------
 
 The application performs the following functions:
 
