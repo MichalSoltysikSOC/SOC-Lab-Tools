@@ -26,10 +26,6 @@ License: Free for personal and commercial use.
 
 <br>
 
-Repository name: SOC Lab Tools
-
-<br>
-
 Tools included:
 
 (1) TLSKeyLogConfigurator.exe
