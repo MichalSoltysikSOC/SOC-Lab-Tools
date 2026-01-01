@@ -71,6 +71,18 @@ The application performs the following functions:
 WindowsDefenderDisabler.exe
 -------------------------------------------
 
+Important notice:
+
+<br>
+
+This tool modifies security-critical Windows Defender configuration by applying registry- and service-level enforcement intended for isolated SOC labs and controlled test environments only.
+Improper use in a production environment, enterprise network, or unmanaged system may significantly reduce system security, expose the host to malware, or violate organizational security policies.
+Use of this tool requires full understanding of its impact and full responsibility for its operation.
+It must never be deployed on production systems, end-user workstations, or environments where security controls are required to remain active.
+
+<br>
+<br>
+
 The application performs the following functions:
 
 <br>
