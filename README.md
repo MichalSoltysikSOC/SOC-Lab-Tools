@@ -119,7 +119,7 @@ The application performs the following functions:
 
 (5) copies itself to a fixed system location and executes from there to ensure consistent task execution;
 
-(6) appends a single timestamped entry per execution to a shared log file, providing a simple audit trail of Defender disable operations;
+(6) appends a single timestamped entry on each execution, including executions at system boot, at user logon, and multiple times per day (separate time triggers - effectively hourly), to a shared log file, recording Windows Defender disable operations and providing a simple audit trail;
 
 (7) displays an informational pop-up notification only on first execution when the scheduled task is created.
 
